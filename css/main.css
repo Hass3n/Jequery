@@ -1,0 +1,159 @@
+/******************Header*****************************/
+
+header
+{
+    background-image:linear-gradient(rgba(150, 24, 24, 0.6), rgba(149, 20, 20, 0.7)) , url('../images/headimage.jpg');
+    height: 95vh;
+    background-position: center bottom;
+    background-size: cover;
+    background-color: teal;
+    position: relative;
+}
+
+
+/**************nav************************/
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+    transition:color .5s ;
+}
+
+nav
+{
+    background-color: #000;
+    position: fixed;
+    
+   
+    top: 0;
+    bottom: 0;
+       
+    
+}
+
+
+.icon-menu
+{
+    cursor: pointer;
+}
+nav ul li
+{
+    padding-block: .625rem;
+    font-size: 1.5625rem;
+}
+
+nav i
+{
+    text-align: end;
+}
+
+nav li a:hover
+{
+    color: rgb(70, 17, 17);
+}
+
+.head-icon 
+{
+    position: absolute;
+ 
+    padding: .625rem;
+
+    top: 50%;
+    left:0;
+    display: flex;
+    align-items: center;
+    gap: .3125rem;
+}
+
+
+
+/********** card***************/
+.card-title
+{
+    background-color: #E68285;
+}
+
+.close ,.card-title
+{
+
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+.card-content
+{
+     display: none; 
+    background-color: #CCCCCC;
+}
+
+.card-one
+{
+    display: block;
+}
+
+
+
+
+/***************join*****************/
+.join
+{
+    background-image:linear-gradient(rgba(150, 24, 24, 0.6), rgba(149, 20, 20, 0.7)) , url('../images/join.jpg'); 
+    background-size: cover;
+    background-position: center top;
+ 
+}
+
+.join-card
+{
+    border: 2px solid #fff;
+   
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+/************join us***/
+
+.contact-info h4
+{
+    font-size: 1.125rem;
+}
+
+.contact-info p
+{
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.social-link .icon
+{
+    border: 1px solid #c8bbbb;
+}
+
+
+.social-link .icon:hover
+{
+    background-color: #D62E33;
+}
+
+.social-link .icon:hover i
+{
+    color: #fff;
+}
+
+
+/******************forms****/
+
+textarea
+{
+    resize: vertical;
+}
